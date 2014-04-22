@@ -1,4 +1,4 @@
-import urllib
+from urllib import parse as urllib
 from requests import post
 from requests.auth import HTTPBasicAuth
 from mxit import settings
